@@ -64,6 +64,6 @@ Feel free to reach out if you have any questions or suggestions!
 
 - Email: [yousfjaafer@gmail.com](mailto:yousfjaafer@gmail.com)
 - LinkedIn: [Youssef Gaafar](https://www.linkedin.com/in/youssefgaafar/)
-- X (Formely Twitter): [@JoGaafar](https://twitter.com/yourhandle)
+- X (Formely Twitter): [@JoGaafar](https://x.com/JoGaafar)
 
 Thank you for visiting my portfolio! 😊
