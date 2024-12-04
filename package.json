@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Webpage",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "author": "Youssef Gaafar",
+  "license": "MIT",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.2.3",
+    "sass": "^1.62.0"
+  }
+}

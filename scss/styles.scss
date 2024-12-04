@@ -1,0 +1,135 @@
+@import './bootstrap.scss';
+
+// Header Classes
+.header {
+  background: #151515 url('../images/intro-bg.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+// Overlay Part (Important part)
+.header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.header .text-container {
+  z-index: 10; // We added this to index up the texts
+}
+
+.header .social {
+  bottom: 3.125rem; // 50px
+}
+
+.header .roles {
+  font-family: 'lora-regular', serif;
+}
+
+.social a {
+  color: white; /* Setting icon color */
+  text-decoration: none;
+  transition: all 0.5s ease; /* Smooth transition for hover effect */
+}
+
+.social a:hover,
+.social a:active {
+  color: $primary; /* Apply primary color on hover (desktop) and click/tap (mobile) */
+}
+///////////////////////////////////////////////
+
+// About Section Classes
+.about-img {
+  width: 14.375rem; // 230px
+}
+///////////////////////////////////////////////
+
+// Profile Section Classes
+.profile--skills h5 {
+  margin-bottom: 2rem;
+}
+
+.prog-langs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+// Words Styling
+.js-word {
+  color: #f1e05a;
+}
+.ts-word {
+  color: #2b7489;
+  margin-left: 1.5rem;
+}
+.py-word {
+  color: #3572a5;
+}
+.c-word {
+  color: #555555;
+}
+.c#-word {
+  color: #178600;
+}
+.cpp-word {
+  color: #f34b7d;
+}
+///////////////////////////////////////////////
+
+// Portfolio Classes
+.project:hover,
+.project:active {
+  transform: scale(1.05);
+  transition: all 0.5 ease-in-out;
+  opacity: 0.8;
+}
+
+.github--link:hover,
+.github--link:active {
+  opacity: 0.8;
+}
+///////////////////////////////////////////////
+
+// Services Classes
+.services {
+  background: url('../images/bg.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.services::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.services .container {
+  z-index: 10;
+}
+///////////////////////////////////////////////
+
+// Media Queries
+@media (max-width: 767px) {
+  .header .social a {
+    font-size: 1.875rem; // 30px
+  }
+
+  .header .roles {
+    font-size: 1.125rem !important; // 18px
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+}
+
+///////////////////////////////////////////////

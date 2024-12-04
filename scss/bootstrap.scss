@@ -1,0 +1,62 @@
+// Font
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+// Colors
+$primary: #cc005f;
+$secondary: #990047;
+$dark: #000;
+$light: #f4f4f4;
+
+// Hamburger Menu Icon
+$navbar-toggler-border-radius: 0.313rem; // 5px
+
+// Buttons
+$button-radius: 0;
+$button-padding-x: 1.875rem; // 30px
+$button-padding-y: 0.75rem; // 12px
+
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
+
+$btn-padding-x: $button-padding-x;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-x-lg: $button-padding-x;
+
+$btn-padding-y: $button-padding-y;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-y-lg: $button-padding-y;
+
+// Custom Spacers
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+
+// Container Breakpoints
+$container-max-widths: (
+  // 540px
+  sm: 33.75rem,
+
+  // 720px
+  md: 45rem,
+
+  // 960px
+  lg: 60rem,
+
+  // 980px
+  xl: 61.25rem,
+
+  // 1000px
+  xxl: 62.5rem
+) !default;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
