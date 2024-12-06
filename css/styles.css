@@ -11907,7 +11907,8 @@ textarea.form-control-lg {
 }
 
 @media (max-width: 767px) {
-  .header .social a {
+  .header .social a,
+  .social a {
     font-size: 1.875rem;
   }
   .header .roles {
