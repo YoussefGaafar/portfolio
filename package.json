@@ -4,6 +4,7 @@
   "description": "Portfolio Webpage",
   "main": "index.js",
   "scripts": {
+    "run": "npx serve -p 4000",
     "sass:build": "sass --no-source-map scss:css",
     "sass:watch": "sass --no-source-map --watch scss:css"
   },
